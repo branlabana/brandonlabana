@@ -30,355 +30,152 @@
     <link rel="stylesheet" href="css/hint.min.css">
 </head>
 <body>
-    <!-- Pantalla de carga -->
-    <div class="contenedor-carga">
-        <div class="loader">
-            <div class="linea"></div>
-            <div class="linea"></div>
-            <div class="linea"></div>
-            <div class="linea"></div>
-            <div class="linea"></div>
-            <div class="linea"></div>
-            <div class="linea"></div>
-            <div class="linea"></div>
-        </div>
-    </div>
-    <!-- Seccion navegacion -->
-    <header >
-        <nav class="navegacion">
-            <div class="menu-hamburguesa">
-                <i class="fas fa-bars" id="menu-hamburguesa"></i>
-                <div class="logo">
-                    <i class="fas fa-laptop-code"></i>
-                    <!-- <span class="eslogan">Miguel Ponce </span> -->
-                </div>
-            </div>
-            <div class="menu-xl">
-                <ul class="menu " id="menu">
-                    <li class="menu-item" data-url="banner"></li>
-                    <li class="menu-item" data-url="portafolio"><a href="#portafolio">Portafolio</a></li>
-                    <li class="menu-item" data-url="habilidades"><a href="#habilidades" >Habilidades</a></li>
-                    <li class="menu-item" data-url="experiencia"><a href="#experiencia" >Experiencia</a></li>
-                    <li class="menu-item" data-url="contacto"><a href="#contacto" >Contacto</a></li>
-                </ul>
-                <div class="logo1">
-                    <i class="fas fa-laptop-code"></i>
-                    <!-- <span class="eslogan">Miguel Ponce </span> -->
-                </div>
-            </div>
-        </nav>
-    </header>
+  
+  
+  
+  
+  
+  <div align="center">
+<img src="https://www.islabit.com/wp-content/uploads/2020/07/Desarrolladores-usar-Photoshop-1.jpeg" align="center" style="width: 100%" />
+</div>  
+  
 
-        <!-- Seccion banner -->
-    <section class="banner seccion" id="banner">
-        <div class="contenido">
-            <p data-aos="zoom-in" data-aos-duration="2500">Miguel Angel Ponce Garay</p>
-            <div class="division"></div>
-            <p class="titulo"> <span class="animado"></span></p>
-            <div class="social"  data-aos="fade-right"  data-aos-duration="1500">
-                <a href="https://www.linkedin.com/in/miguel-ponce/" target="_blank"><i class="fab fa-linkedin"></i></a> 
-                <a href="https://github.com/Miguelp11" target="_blank"><i class="fab fa-github"></i></a> 
-            </div>
-        </div>
-    </section>
+### <div align="center">Front end web developer</div>  
+  
 
-    <!-- Seccion portafolio -->
-    <section class="portafolio1 seccion" id="portafolio" data-aos="fade-up" data-aos-duration="1500">
-        <h2 class="titulo-seccion">Portafolio</h2>
-        <div class="division"></div>
-        <div class="portafolio">
-            <div class="portafolio-img portafolio-6">
-                <figure>
-                    <img src="img/tallerJS.png" alt="tallerJS" class="img-portafolio">
-                </figure>
-                <div class="portafolio-info">
-                    <p>Sitio Web "Taller de JavaScript"</p>                
-                </div>
-            </div>
-            <div class="portafolio-img portafolio-5">
-                <figure>
-                    <img src="img/lluviaEstrellas.png" alt="lluvia-estrellas" class="img-portafolio">
-                </figure>
-                <div class="portafolio-info">
-                    <p>Página Web "Luvia de estrellas"</p>                
-                </div>
-            </div>
-            <div class="portafolio-img portafolio-4">
-                <figure>
-                    <img src="img/flappy.jpg" alt="flappy" class="img-portafolio">
-                </figure>
-                <div class="portafolio-info">
-                    <p>Juego web tipo "Flappybird"</p>                
-                </div>
-            </div>
-            <div class="portafolio-img portafolio-3">
-                <figure>
-                    <img src="img/axolotl.png" alt="pagina-axolotl" class="img-portafolio">
-                </figure>
-                <div class="portafolio-info">
-                    <p>Sitio Web "Axolotl"</p>                
-                </div>
-            </div>
-            <div class="portafolio-img portafolio-2">
-                <figure>
-                    <img src="img/cafeoslo.png" alt="pagina-cafeoslo" class="img-portafolio">
-                </figure>
-                <div class="portafolio-info">
-                    <p>Página Web "CafeOslo"</p>                
-                </div>
-            </div>
-            <div class="portafolio-img portafolio-1">
-                <figure>
-                    <img src="img/appmetro.png" alt="aplicacion-metro" class="img-portafolio" >
-                </figure>                
-                <div class="portafolio-info">
-                    <p>Aplicación Web "Capacitación Material Rodante"</p>                
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Seccion habilidades -->
-    <section class="habilidades seccion" id="habilidades" data-aos="fade-up" data-aos-duration="1500">
-        <h2 class="titulo-seccion-blanco">Habilidades</h2>
-        <div class="division-blanco"></div>
-        <div class="contenedor-habilidades">
-            <div class="item item1">
-                <img src="img/html5.svg" alt="html5" class="icono iconohtml5">
-                <p>HTML5</p>
-            </div>
-            <div class="item item2">
-                <img src="img/css3.svg" alt="css3" class="icono iconocss">
-                <p>CSS3</p>
-            </div>
-            <div class="item item3">
-                <img src="img/javascript.svg" alt="javascript" class="icono">
-                <p>JavaScript</p>
-            </div>
-            <div class="item item4">
-                <img src="img/git.svg" alt="git" class="icono iconogit">
-                <p>Git / Github</p>
-            </div>
-            <div class="item item5">
-                <img src="img/mysql.svg" alt="mysql" class="icono">
-                <p>MySQL / SQLServer</p>
-            </div>
-            <div class="item item6">
-                <img src="img/java.svg" alt="Java" class="icono iconojava">
-                <p>Java</p>
-            </div>
-            <div class="item item7">
-                <img src="img/php.svg" alt="php" class="icono iconophp">
-                <p>PHP</p>
-            </div>
-            <div class="item item8">
-                <img src="img/wordpress.svg" alt="php" class="icono iconowp">
-                <p>WordPress</p>
-            </div>
-        </div>
-    </section>
 
-    <!-- Seccion experiencia -->
-    <section class="experiencia seccion" id="experiencia" data-aos="fade-up" data-aos-duration="1500">
-        <h2 class="titulo-seccion">Experiencia</h2>
-        <div class="division"></div>
-        <div class="contenedor-experiencia">
-            <div class="item-experiencia item-experiencia1">
-                <a href="pdf/CV-Miguel-Ponce.pdf" target="_blank" class="hint--top hint--rounded hint--bounce" aria-label="Ver CV"> <img src="img/ah.jpg" alt="animalHeroes"  class="img-experiencia"></a> 
-                <p> <strong>Animal Heroes</strong>  <br> <small>Ene 2021- Actualmente</small> <br><span>Área de Desarrollo Web</span> </p>
-            </div>
-            <div class="item-experiencia item-experiencia2">
-                <a href="pdf/CV-Miguel-Ponce.pdf" target="_blank" class="hint--top hint--rounded hint--bounce" aria-label="Ver CV"><img src="img/metro.png" alt="stcMetro" class="img-experiencia"></a> 
-                <p><strong>S.T.C Metro</strong>  <br> <small>Sep 2019 - Jun 2020</small>  <br> <span>Desarrollo de Aplicación Web</span>  </p>
-            </div>
-            <div class="curriculum">
-                <a href="pdf/CV-Miguel-Ponce.pdf" target="_blank" class="cv">Descargar CV</a>
-            </div>
-        </div>
-    </section>
+### About me:  
+- 🔭 I’m currently working on Sistema de Transporte Colectivo CDMX  
+  
 
-    <!-- Seccion contacto -->
-    <section class="contacto seccion" id="contacto" data-aos="fade-up" data-aos-duration="1500">
-        <h2 class="titulo-seccion-blanco">Contacto</h2>
-        <div class="division-blanco"></div>
-        <div class="contenedor-contacto">
-            <div class="contacto-icono">
-                <a href="mailto:mailto:miguel_p1194@hotmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
-                <p>Envíame un correo</p>
-            </div>
-            <div class="contacto-icono">
-                <a href="https://www.linkedin.com/in/miguel-ponce/" target="_blank"><i class="fab fa-linkedin"></i></a> 
-                <p>Agrégame en LinkedIn</p>
-            </div>
-            <div class="contacto-icono">
-                <a href="https://github.com/Miguelp11" target="_blank"><i class="fab fa-github"></i></a> 
-                <p>Sígueme en GitHub</p>
-            </div>
-            <div class="contacto-icono">
-                <a href="https://www.facebook.com/miguelp1194" target="_blank"><i class="fab fa-facebook"></i></a>
-                <p>Agrégame en Facebook</p>
-            </div>
-        </div>
-    </section>
 
-    <!-- Modal portafolio -->
-    <div class="modal-portafolio">
-        <div class="modal-contenido">
-                <div class="img-info">
-                    <img src="img/appmetro.png" class="modal_img">
-                </div>
-                <div class="detalles-proyecto">
-                    <h2>Información del proyecto</h2>
-                    <div class="division"></div>
-                    <p class="cat">Categoría: <span>Aplicación Web</span></p>
-                    <p class="cat">Cliente: <span>Dirección de Material Rodante S.T.C</span></p>
-                    <p class="cat">Fecha del proyecto: <span>Junio 2020</span></p>
-                    <p class="cat">URL: <span>---</span></p>
-                    <h2>Detalles del Proyecto</h2>
-                    <div class="division"></div>
-                    <p class="descripcion">
-                        <strong>•</strong> Desarrollo del CRUD para la información de los empleados, archivos en PDF y videos con el lenguaje de programación <strong>PHP</strong> y gestor de base de datos <strong>MySQL</strong>.<br>
-                        <strong>•</strong> Uso de la librería FPDF con MySQL para creación de formatos PDF dinámicos. <br>
-                        <strong>•</strong> Desarrollo de 3 niveles de usuarios con distintos roles y permisos. <br>
-                        <strong>•</strong> Aplicación web responsiva con estructura <strong>HTML</strong> y estilos <strong>CSS</strong>.
-                </div>
-        </div>
-        <div class="cerrar-modal">
-            X
-        </div>
-    </div>
-    <div class="modal-portafolio">
-        <div class="modal-contenido">
-                <div class="img-info">
-                    <img src="img/axolotl.png" class="modal_img">
-                </div>
-                <div class="detalles-proyecto">
-                    <h2>Información del proyecto</h2>
-                    <div class="division"></div>
-                    <p class="cat">Categoría: <span>Sitio Web</span></p>
-                    <p class="cat">Cliente: <span>Actividad Personal</span></p>
-                    <p class="cat">Fecha del proyecto: <span>Febrero 2021</span></p>
-                    <p class="cat">URL: <span><a href="https://axolotle.000webhostapp.com/" target="_blank">Visitar</a></span></p>
-                    <h2>Detalles del Proyecto</h2>
-                    <div class="division"></div>
-                    <p class="descripcion">
-                    <strong>•</strong> Sitio web responsivo, informativo sobre un videojuego enfocado en la alcaldía Xochimilco. <br>
-                    <strong>•</strong> Desarrollado con estructura <strong>HTML</strong>, <strong>CSS</strong> y <strong>Javascript</strong> uso de librerías animate.css, wow.js para mostrar animaciones y glider.js para creación de sliders.</p>
-                </div>
-            </div>
-        <div class="cerrar-modal">
-            X
-        </div>
-    </div>
-    <div class="modal-portafolio">
-        <div class="modal-contenido">
-                <div class="img-info">
-                    <img src="img/cafeoslo.png" class="modal_img">
-                </div>
-                <div class="detalles-proyecto">
-                    <h2>Información del proyecto</h2>
-                    <div class="division"></div>
-                    <p class="cat">Categoría: <span>Página Web</span></p>
-                    <p class="cat">Cliente: <span>Curso Domestika</span></p>
-                    <p class="cat">Fecha del proyecto: <span>Enero 2021</span></p>
-                    <p class="cat">URL: <span><a href="https://miguelp11.github.io/CafeOslo/" target="_blank">Visitar</a></span></p>
-                    <h2>Detalles del Proyecto</h2>
-                    <div class="division"></div>
-                    <p class="descripcion">
-                    <strong>•</strong> Página web responsiva creada como proyecto final del curso "Introducción al desarrollo web con HTML y CSS". <br>
-                    <strong>•</strong> Desarrollado con estructura <strong>HTML</strong>, <strong>CSS</strong> y <strong>Javascript</strong>.</p>
-                </div>
-                </div>
-                <div class="descripcion-proyecto">
-                  
-        </div>
-        <div class="cerrar-modal">
-            X
-        </div>
-    </div>
-    <div class="modal-portafolio">
-        <div class="modal-contenido">
-                <div class="img-info">
-                    <img src="img/flappy.jpg" class="modal_img">
-                </div>
-                <div class="detalles-proyecto">
-                    <h2>Información del proyecto</h2>
-                    <div class="division"></div>
-                    <p class="cat">Categoría: <span>Juego Web</span></p>
-                    <p class="cat">Cliente: <span>Actividad Personal</span></p>
-                    <p class="cat">Fecha del proyecto: <span>Mayo 2021</span></p>
-                    <p class="cat">URL: <span><a href="https://miguelp11.github.io/FlappyBird/" target="_blank">Visitar</a></span></p>
-                    <h2>Detalles del Proyecto</h2>
-                    <div class="division"></div>
-                    <p class="descripcion">
-                    <strong>•</strong> Juego web tipo "FlappyBird". <br> 
-                    <strong>•</strong> Desarrollado en canvas <strong>HTML</strong> y en el lenguaje de programación <strong>Javascript</strong>.</p>
-                </div>
-                </div>
-                <div class="descripcion-proyecto">
-                  
-        </div>
-        <div class="cerrar-modal">
-            X
-        </div>
-    </div>
-    <div class="modal-portafolio">
-        <div class="modal-contenido">
-            <div class="img-info">
-                <img src="img/lluviaEstrellas.png" class="modal_img">
-            </div>
-            <div class="detalles-proyecto">
-                <h2>Información del proyecto</h2>
-                <div class="division"></div>
-                <p class="cat">Categoría: <span>Página Web</span></p>
-                <p class="cat">Cliente: <span>Actividad Personal</span></p>
-                <p class="cat">Fecha del proyecto: <span>Mayo 2021</span></p>
-                <p class="cat">URL: <span><a href="https://miguelp11.github.io/LluviaDeEstrellas/" target="_blank">Visitar</a></span></p>
-                <h2>Detalles del Proyecto</h2>
-                <div class="division"></div>
-                <p class="descripcion">
-                <strong>•</strong> Página web que muestra una animación de lluvia de estrellas. <br> 
-                <strong>•</strong> Desarrollado con estructura <strong>HTML</strong> y animación creada con <strong>CSS</strong>.</p>
-            </div>
-        </div>
-        <div class="descripcion-proyecto">      
-        </div>
-        <div class="cerrar-modal">
-            X
-        </div>
-    </div>
-    <div class="modal-portafolio">
-        <div class="modal-contenido">
-                <div class="img-info">
-                    <img src="img/tallerJS.png" class="modal_img">
-                </div>
-                <div class="detalles-proyecto">
-                    <h2>Información del proyecto</h2>
-                    <div class="division"></div>
-                    <p class="cat">Categoría: <span>Sitio Web</span></p>
-                    <p class="cat">Cliente: <span>Curso Platzi</span></p>
-                    <p class="cat">Fecha del proyecto: <span>Agosto 2021</span></p>
-                    <p class="cat">URL: <span><a href="https://miguelp11.github.io/TallerPracticoJS/" target="_blank">Visitar</a></span></p>
-                    <h2>Detalles del Proyecto</h2>
-                    <div class="division"></div>
-                    <p class="descripcion">Sitio web responsivo realizado como proyecto final del "Curso práctico de JavaScript". <br> En el curso se realizaron 4 talleres: <br>
-                    <strong>•</strong> Calculadora de área y perímetro de tres figuras geométricas. <br>
-                    <strong>•</strong> Calculadora de precios y descuentos. <br>
-                    <strong>•</strong> Calculadora de media, moda y mediana. <br>
-                    <strong>•</strong> Calculadora de capacidad de endeudamiento. <br>
-                    Desarrollado con estructura <strong>HTML</strong> estilos <strong>CSS</strong> y lenguaje de programación <strong>JavaScript</strong>.</p>
-                </div>
-                </div>
-                <div class="descripcion-proyecto">      
-        </div>
-        <div class="cerrar-modal">
-            X
-        </div>
-    </div>
 
-    <!-- Pie de pagina -->
-    <footer class="pie-pagina">
-        <p>Desarrollado por <a href="mailto:miguel_p1194@hotmail.com">Miguel Ponce</a>. &copy; 2021. <span>Todos los derechos reservados.</span> </p>
+### Skills:  
+• Responsible
+
+• Fluent english
+
+• Ability to work under pressure and short lead times
+
+• Imagination, creativity and liking visual aesthetics
+
+• Pedagogical skills
+
+• Customer service
+
+• Communication skills
+
+• Self-taught
+
+• Good verbal and written communication skills  
+  
+
+
+
+### Languages:  
+• Spanish - Native
+
+• English - B2  
+  
+
+<br/>  
+
+
+## My Skill Set  
+<table><tr><td valign="top" width="33%">
+
+
+
+### Frontend  
+<div align="center">  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/angularjs-original.svg" alt="Angular" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/xampp.png" alt="XAMPP" height="50" />  
+</div>
+
+</td><td valign="top" width="33%">
+
+
+
+### Backend  
+<div align="center">  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/cplusplus-original.svg" alt="C++" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/csharp-original.svg" alt="C#" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="50" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/postgresql-original-wordmark.svg" alt="PostgreSQL" height="50" />  
+</div>
+
+</td><td valign="top" width="33%">
+  
+  
+### Operative Systems  
+  <div align="center">  
+<img style="margin: 10px" src="https://www.freeiconspng.com/uploads/windows-icon-png-25.png" alt="Icon Windows Pictures" height="50" /> 
+<img style="margin: 10px" src="https://www.freeiconspng.com/uploads/linux-icon-0.png" alt="Icon Linux Download" height="50" />
+<img style="margin: 10px" src="https://www.freeiconspng.com/uploads/app-ios-png-4.png" alt="appple ios png" height="50" />  
+<img style="margin: 10px" src="https://www.freeiconspng.com/uploads/android-robot-icon-22.png" alt="android" height="50" />  
+  
+</div>
+
+</td><td valign="top" width="33%">
+
+
+
+</td></tr></table>  
+
+<br/>  
+
+
+## Connect with me  
+<div align="center">
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/brandon-labana-584386222/" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</a>
+<a href="https://www.facebook.com/https://www.facebook.com/brandon.lg.54738/" target="_blank">
+<img src=https://img.shields.io/badge/facebook-%232E87FB.svg?&style=for-the-badge&logo=facebook&logoColor=white alt=facebook style="margin-bottom: 5px;" />
+</a>
+<a href="https://github.com/https://github.com/branlabana" target="_blank">
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+</a>  
+</div>  
+  
+
+<br/>  
+
+
+## Github Stats  
+  
+
+<br/>  
+
+
+## Recent Blog Posts  
+<!-- BLOG-POST-LIST:START -->  
+If things goes well, this section should automatically be replaced by a list of your blog posts after you commit your readme file. 
+<!-- BLOG-POST-LIST:END -->  
+
+<br/>  
+
+  
+
+<br/>  
+
+  
+
+<br/>  
+
+
+<br />
+
+        <p>Desarrollado por <a href="mailto:branlabana@gmail.com">Brandon Labana Guerrero</a>. &copy; 2022. <span>Todos los Derechos Reservados.</span> </p>
     </footer>
     <script src="js/typed.js"></script>
     <script src="js/aos.js"></script>
